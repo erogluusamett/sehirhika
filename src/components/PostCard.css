@@ -1,0 +1,53 @@
+.post-card {
+    background-color: #111;
+    border-radius: 10px;
+    overflow: hidden;
+    color: white;
+    padding: 15px;
+    margin-bottom: 30px;
+}
+
+.post-header {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.post-image {
+    width: 100%;
+    max-height: 500px;
+    object-fit: contain;
+    border-radius: 10px;
+    background-color: #ffffff; /* istersen kaldırabilirsin */
+    margin-bottom: 10px;
+}
+
+.post-actions {
+    display: flex;
+    gap: 15px;
+    font-size: 20px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.icon:hover {
+    color: #f06292;
+}
+
+.post-caption {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.post-comment input {
+    width: 100%;
+    padding: 8px;
+    background-color: #222;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.post-comment input::placeholder {
+    color: #aaa;
+}

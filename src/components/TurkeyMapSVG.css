@@ -1,0 +1,21 @@
+.turkey-map-svg {
+    width: 100%;
+    max-width: 1000px;
+    height: auto;
+}
+
+.city-path {
+    fill: white;
+    stroke: black;
+    stroke-width: 1;
+    transition: fill 0.2s ease;
+    cursor: pointer;
+}
+
+.city-path.hover {
+    fill: #c1121f;
+}
+
+.city-path.selected {
+    fill: #1C2C48;
+}

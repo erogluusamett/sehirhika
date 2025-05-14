@@ -1,0 +1,128 @@
+.map-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #d6d6d6;
+    min-height: 100vh;
+    padding: 10px;
+}
+
+h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.map-wrapper {
+    width: 100%;
+    max-width: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+}
+
+
+svg g path {
+    fill: #ffffff !important;
+    stroke: #666 !important;
+    stroke-width: 1.2 !important;
+    cursor: pointer;
+    transition: fill 0.2s ease;
+}
+
+svg g path:hover {
+    fill: #ff0000 !important;
+}
+
+svg g path.selected {
+    fill: #ff0000 !important;
+}
+
+.city-label {
+    font-size: 20px;
+    font-weight: bold;
+    color: #1C2C48;
+    margin-top: 20px;
+}
+
+.button-group {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+
+.map-button {
+    width: 200px;
+    padding: 12px;
+    background-color: #999;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.map-button:hover {
+    background-color: #666;
+}
+
+/* Popup */
+.popup-backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+}
+
+.popup-box {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+    max-width: 400px;
+    width: 90%;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.popup-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.popup-buttons button {
+    padding: 10px 20px;
+    background-color: #1C2C48;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.popup-buttons button:hover {
+    background-color: #444;
+}
+.map-wrapper > div {
+    width: 100% !important;
+    max-width: 100% !important;
+    display: flex;
+    justify-content: center;
+}
+
+.map-wrapper svg {
+    width: 100% !important;
+    max-width: 100% !important;
+    height: auto !important;
+}

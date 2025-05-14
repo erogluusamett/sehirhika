@@ -1,0 +1,41 @@
+/*
+!* src/components/Sidebar.css *!
+.sidebar {
+    width: 60px; !* ✔ Sadece ikonları çevreleyecek kadar geniş *!
+    height: 100vh;
+    background-color: #111;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 20px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+    z-index: 999;
+}
+
+.nav-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-decoration: none;
+    font-size: 10px;
+    margin-bottom: 30px;
+}
+
+.nav-item i {
+    font-size: 22px; !* 🔥 ikon boyutu sabit, küçültülmedi *!
+    margin-bottom: 4px;
+}
+
+.profile-pic {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 5px;
+}
+*/

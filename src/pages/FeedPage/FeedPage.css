@@ -1,0 +1,29 @@
+.feed-container {
+    background-color: transparent; /* veya #000 */
+    color: white;
+    min-height: 100vh;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+.city-title {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.post-list {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 20px;
+}
+
+.no-post {
+    text-align: center;
+    color: #888;
+}
+.page-content {
+    margin-left: 80px; /* Sidebar genişliği kadar */
+    padding: 20px;
+}

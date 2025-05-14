@@ -1,0 +1,33 @@
+.motif-left,
+.motif-right {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    width: 170px;
+    z-index: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    pointer-events: none;
+}
+
+.motif-left {
+    left: 0;
+}
+
+.motif-right {
+    right: 0;
+}
+
+.motif {
+    opacity: 0.5;
+    width: 170px;
+    transform-origin: center;
+}
+
+.motif1 { transform: rotate(-180deg) translateY(40px); }
+.motif2 { transform: rotate(8deg) translateY(-10px); }
+.motif3 { transform: rotate(-3deg) translateY(15px); }
+.motif4 { transform: rotate(4deg) translateY(-20px); }
+.motif5 { transform: rotate(-6deg) translateY(25px); }
+.motif6 { transform: rotate(10deg) translateY(5px); }
